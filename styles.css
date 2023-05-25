@@ -1,0 +1,83 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+h1 {
+    text-align: center;
+}
+
+body {
+    color: darkblue;
+
+}
+
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+img {
+    border: 3px gray solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.bye {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* The code on lines 14-16 centers the text of all h2's on the page*/
+h2 {
+    text-align: center;
+    color: darkgreen;
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    font-size: 25px;
+}
+li{
+    font-size:25px;
+}
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+.section {
+   border:3px solid black;
+    margin: 5px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.red {
+    color: green;
+}
+
+.blue {
+    color: green;
+}
+
+.purple {
+    color: black;
+}
+
+.petition2 {
+    justify-content: center;
+    align-items: center;
+}
+
+.petition1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.purple {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+}
+h1{font-family: 'Rowdies', cursive;
+   
+}
+h2{font-family: 'Rowdies', cursive;
+}
